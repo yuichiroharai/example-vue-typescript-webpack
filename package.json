@@ -1,0 +1,36 @@
+{
+  "name": "example-vue-typescript-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "bsync": "browser-sync start --server htdocs --files **/* --open external",
+    "webpack": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuichiroharai/example-vue-typescript-webpack.git"
+  },
+  "author": {
+    "name": "Yuichiroh Arai",
+    "url": "http://www.yuichiroharai.com/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/vue": "^2.0.0",
+    "browser-sync": "^2.18.13",
+    "json-loader": "^0.5.7",
+    "raw-loader": "^0.5.1",
+    "ts-loader": "^3.1.1",
+    "typescript": "^2.6.1",
+    "vue": "^2.5.3",
+    "vue-class-component": "^6.1.0",
+    "vue-loader": "^13.5.0",
+    "vue-template-compiler": "^2.5.3",
+    "webpack": "^3.8.1"
+  },
+  "bugs": {
+    "url": "https://github.com/yuichiroharai/example-vue-typescript-webpack/issues"
+  },
+  "homepage": "https://github.com/yuichiroharai/example-vue-typescript-webpack#readme"
+}
